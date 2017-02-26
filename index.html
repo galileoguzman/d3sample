@@ -22,6 +22,18 @@
 				<li><a href="">Link 1</a></li>
 				<li><a href="">Link 2 <span class="new badge">4</span></a></li>
 				<li><a href="">Link 3</a></li>
+				<li>
+					<!-- Dropdown Trigger -->
+					<a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!</a>
+
+					<!-- Dropdown Structure -->
+					<ul id='dropdown1' class='dropdown-content'>
+						<li><a href="#!">one</a></li>
+						<li><a href="#!">two</a></li>
+						<li class="divider"></li>
+						<li><a href="#!">three</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 	</nav>
@@ -33,14 +45,35 @@
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/ffG-pJVR1dU" frameborder="0" allowfullscreen></iframe>
 	</div>
 	
-	<div class="col s4">
-		SVG
+	<div class="col s4 center">
+		<svg height="210" width="500">
+  			<polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:lime;stroke:purple;stroke-width:5;fill-rule:nonzero;"/>
+ 				Sorry, your browser does not support inline SVG.
+		</svg>
 	</div>
 
 	<div class="col s4">
 		D3
 	</div>
 </div>
+
+<div class="row footer">
+	<div class="col s6 center">
+		<p>Av. Circunvalación Norte #1125<br>
+			Fracc. Arboledas<br>
+			C.P. 20020 Tels. (449) 910.23.00 y 910.23.01<br>
+			Aguascalientes, Ags. México</p>
+	</div>
+
+	<div class="col s6 center">
+		<ul>
+			<li>Visitenos en <a href="https://galilleoguzman.com">galilleoguzman.com</a></li>
+			<li>Visitenos en <a href="https://galilleoguzman.com">galilleoguzman.com</a></li>
+			<li>Visitenos en <a href="https://galilleoguzman.com">galilleoguzman.com</a></li>
+		</ul>
+	</div>
+</div>
+
 <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
